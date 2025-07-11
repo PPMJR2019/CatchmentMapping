@@ -1,5 +1,6 @@
 # Generic Watershed Processing Script
-**Overview
+
+# Overview
 This R script processes geospatial data for a user-specified watershed in any country, extracting and aligning watershed boundaries, administrative boundaries, land use, DEM, rainfall, and NDVI (dry and wet seasons) for catchment mapping. It assumes input data is in EPSG:4326 (WGS84) and outputs data in a UTM projection calculated from the watershed’s centroid longitude. Outputs are saved in a directory named after the watershed ([watershed_name]/). The script includes validation, error handling, and detailed logging.
 
 # Prerequisites
